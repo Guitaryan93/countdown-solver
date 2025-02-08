@@ -9,4 +9,6 @@ check the list of words and return any that are longer than 3 characters. All we
 
 Enjoy! ☕
 
-## Examples
+## Example
+![Countdown Episode Letters Image](https://i.dailymail.co.uk/i/pix/2017/02/03/12/3CCA1FA200000578-0-image-a-3_1486123845758.jpg)
+
