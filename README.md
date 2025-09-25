@@ -1,13 +1,17 @@
 # 🕓Countdown Solver
 ![Countdown Clock Image](images/countdown_logo.png)
 
-Find those 8 and 9 letter words to get the highest scores on [Countdown](https://en.wikipedia.org/wiki/Countdown_(game_show)) and win yourself that [teapot](https://en.wikipedia.org/wiki/Countdown_(game_show)#/media/File:Teapot_(levelled).jpg)!
-(You'll still need to be good at the maths bit though...)
+Countdown Solver is a command-line tool that helps you find the highest-scoring words in the classic UK game show [Countdown](https://en.wikipedia.org/wiki/Countdown_(game_show)).
+Give it up to nine random letters, and it will quickly search a large English word list to return every valid word (longer than 3 characters) that can be formed—all within the famous 30-second round time.
+Perfect for practicing your skills or adding some word-finding magic to your own puzzle game.
 
-Built as a fun little Command Line program while watching Countdown, this could easily be adapted for use in a Countdown style game or a puzzle game. It is built using Python and a large JSON document filled with English words. Feed the program 9 letters and it will
-check the list of words and return any that are longer than 3 characters. All well within the 30 second Countdown round time limit 😉.
+| 💡 You’ll still need to solve the math rounds yourself if you want that coveted [teapot](https://en.wikipedia.org/wiki/Countdown_(game_show)#/media/File:Teapot_(levelled).jpg)!
 
-Enjoy! ☕
+## ✨ Features
+
+* 🔤 Fast Word Finder – Finds every valid word you can make from 9 letters in seconds.
+* 🧩 Flexible Input – Works with anywhere from 3 to 9 letters.
+* 🐍 Pure Python – Easy to adapt into other projects or games.
 
 ## Example
 ![Countdown Episode Letters Image](images/countdown_episode_letters.jpeg)
@@ -19,60 +23,38 @@ Countdown Letters: FIRJEDIRC
 4 - defi
 4 - derf
 4 - dice
-4 - dier
-4 - dire
-4 - drie
-4 - eric
-4 - ferd
-4 - ferr
-4 - fice
-4 - fide
-4 - fied
-4 - fiji
-4 - fire
-4 - fred
-4 - iced
-4 - idic
-4 - ired
-4 - irid
-4 - jiri
-4 - recd
-4 - refr
-4 - reid
-4 - reif
-4 - rice
-4 - ride
-4 - rier
-4 - rife
-4 - rifi
-5 - cider
-5 - cirri
-5 - cried
-5 - crier
-5 - deric
-5 - derri
-5 - dicer
-5 - dieri
-5 - direr
-5 - drier
-5 - ferri
-5 - fieri
-5 - fired
-5 - firer
-5 - freir
-5 - fried
-5 - frier
-5 - icier
-5 - irred
-5 - jerid
-5 - riced
-5 - ricer
-5 - rider
-5 - rifer
-6 - deific
-6 - dicier
+...
 6 - ferric
 6 - irride
 6 - jerrid
 7 - feridji
 ```
+
+## 🛠️ How It Works
+
+* Built in Python.
+* Uses a large JSON word list of valid English words.
+* Checks all permutations of your letters to find matches longer than 3 characters.
+
+## 🚀 Getting Started
+
+1. Clone this repository:
+```bash
+git clone https://github.com/<your-username>/countdown-solver.git
+cd countdown-solver
+```
+
+2. Run the solver:
+```
+python countdown_solver.py
+```
+
+3. Enter up to 9 letters when prompted and get your winning words!
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+Enjoy sharpening your Countdown skills—and maybe winning that teapot! ☕
