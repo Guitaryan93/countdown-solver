@@ -40,7 +40,7 @@ Countdown Letters: FIRJEDIRC
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/<your-username>/countdown-solver.git
+git clone https://github.com/Guitaryan93/countdown-solver.git
 cd countdown-solver
 ```
 
@@ -53,7 +53,7 @@ python countdown_solver.py
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
