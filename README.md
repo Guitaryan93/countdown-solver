@@ -5,7 +5,7 @@ Countdown Solver is a command-line tool that helps you find the highest-scoring 
 Give it up to nine random letters, and it will quickly search a large English word list to return every valid word (longer than 3 characters) that can be formed—all within the famous 30-second round time.
 Perfect for practicing your skills or adding some word-finding magic to your own puzzle game.
 
-| 💡 You’ll still need to solve the math rounds yourself if you want that coveted [teapot](https://en.wikipedia.org/wiki/Countdown_(game_show)#/media/File:Teapot_(levelled).jpg)!
+> 💡 You’ll still need to solve the math rounds yourself if you want that coveted [teapot](https://en.wikipedia.org/wiki/Countdown_(game_show)#/media/File:Teapot_(levelled).jpg)!
 
 ## ✨ Features
 
