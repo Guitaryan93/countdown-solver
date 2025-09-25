@@ -1,22 +1,20 @@
 # Countdown solver
-
 import json
 
 
 def sortLength(word):
+    ''' passed as the "key" argument in the sort() function so results can
+        be organized by length of the word. '''
     return len(word)
 
 
-# Import the english word file
+# Import the english word file and make into a list
 with open("words_dictionary.json", "r") as file:
     eng_dict = json.load(file)
-
-# Get the Countdown letters
-countdown_letters = input("Countdown Letters: ").lower()
-
-# Create a list of all the words from the word JSON file
-#all_words = list(eng_dict.keys())
 all_words = [word.lower() for word in eng_dict.keys()]
+
+# Get the Countdown letters from the user
+countdown_letters = input("Countdown Letters: ").lower()
 
 # Loop over the list to build another list of words that
 # match the 9 letters
@@ -47,3 +45,4 @@ for i in matching_words:
     if 3 < len(i) < len(countdown_letters):
         print(str(len(i)) + " - " + i)
     
+
